@@ -54,6 +54,10 @@ body{
     overflow: hidden;
 }
 
+#divisoresHome{
+    height: 100%;
+    color: black;
+}
 
 .caja{
     border: 4px rgb(0, 0, 0);
