@@ -92,10 +92,15 @@ body{
     color: white;
     padding: 5px;
     border: solid; border-radius: 10px; border-color: #005c74;
-   
+    transition: width 2s, background-color 2s, align-items 2s;
+    align-items: center;   
+
     &:hover {
+        width: 120%;
+        background-color: white;
         color: #0099c1;
-    }
+    align-items: center;    
+}
 }
 
 
@@ -111,13 +116,13 @@ body{
 form{
     background-color: #005c74;
     color: white;
+
+    iframe{
+        height: 400px;
+        border-radius: 15px;
+    }
 }
 
-
-iframe{
-    height: 400px;
-    border-radius: 15px;
-}
 
 
 

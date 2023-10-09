@@ -94,9 +94,14 @@ body {
   border: solid;
   border-radius: 10px;
   border-color: #005c74;
+  transition: width 2s, background-color 2s, align-items 2s;
+  align-items: center;
 }
 .titulosBlog:hover {
+  width: 120%;
+  background-color: white;
   color: #0099c1;
+  align-items: center;
 }
 
 .textoBlog {
@@ -113,8 +118,7 @@ form {
   background-color: #005c74;
   color: white;
 }
-
-iframe {
+form iframe {
   height: 400px;
   border-radius: 15px;
 }
