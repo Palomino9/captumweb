@@ -1,5 +1,5 @@
 body {
-  background-color: #82b8c5;
+  background: linear-gradient(to top, #0099c1, white, #0099c1);
   color: #005c74;
 }
 
@@ -7,7 +7,6 @@ body {
 .nav-link {
   color: #0099c1;
 }
-
 .nav-link:hover {
   color: #005c74;
 }
@@ -33,9 +32,9 @@ body {
   margin: 40px 250px 40px 250px;
   box-shadow: 2px 2px 2px 2px black;
 }
-
 .slide img {
   width: 5px;
+  border-radius: 10px;
 }
 
 .clearfix::after {
@@ -88,6 +87,28 @@ body {
   margin-top: 15px;
 }
 
+.titulosBlog {
+  background-color: #005c74;
+  color: white;
+  padding: 5px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #005c74;
+}
+.titulosBlog:hover {
+  color: #0099c1;
+}
+
+.textoBlog {
+  background-color: rgb(255, 255, 255);
+  color: #005c74;
+  margin: 5px;
+  margin-bottom: 0px;
+  padding: 5px;
+  border: solid;
+  border-radius: 10px;
+}
+
 form {
   background-color: #005c74;
   color: white;
@@ -100,12 +121,14 @@ iframe {
 
 /* ESTILOS FOOTER */
 footer {
-  background-color: rgb(255, 0, 0);
+  background-color: #0099c1;
   height: 50px;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 0px;
+  padding-top: 10px;
   text-align: center;
-  color: #0099c1;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
