@@ -123,6 +123,17 @@ form iframe {
   border-radius: 15px;
 }
 
+.error {
+  color: white;
+  text-align: center;
+}
+
+.errorParrafo {
+  color: white;
+  text-align: center;
+  font-size: larger;
+}
+
 /* ESTILOS FOOTER */
 footer {
   background-color: #0099c1;
