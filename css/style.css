@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to top, #0099c1, white, #0099c1);
+  background-color: #82b8c5;
   color: #005c74;
 }
 
@@ -7,6 +7,7 @@ body {
 .nav-link {
   color: #0099c1;
 }
+
 .nav-link:hover {
   color: #005c74;
 }
@@ -32,9 +33,9 @@ body {
   margin: 40px 250px 40px 250px;
   box-shadow: 2px 2px 2px 2px black;
 }
+
 .slide img {
   width: 5px;
-  border-radius: 10px;
 }
 
 .clearfix::after {
@@ -87,62 +88,24 @@ body {
   margin-top: 15px;
 }
 
-.titulosBlog {
-  background-color: #005c74;
-  color: white;
-  padding: 5px;
-  border: solid;
-  border-radius: 10px;
-  border-color: #005c74;
-  transition: width 2s, background-color 2s, align-items 2s;
-  text-align: center;
-}
-.titulosBlog:hover {
-  width: 100%;
-  background-color: white;
-  color: #0099c1;
-}
-
-.textoBlog {
-  background-color: rgb(255, 255, 255);
-  color: #005c74;
-  margin: 5px;
-  margin-bottom: 0px;
-  padding: 5px;
-  border: solid;
-  border-radius: 10px;
-}
-
 form {
   background-color: #005c74;
   color: white;
 }
-form iframe {
+
+iframe {
   height: 400px;
   border-radius: 15px;
 }
 
-.error {
-  color: white;
-  text-align: center;
-}
-
-.errorParrafo {
-  color: white;
-  text-align: center;
-  font-size: larger;
-}
-
 /* ESTILOS FOOTER */
 footer {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: 50px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 10px;
   text-align: center;
-  color: #005c74;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #0099c1;
 }
 
 /*# sourceMappingURL=style.css.map */
