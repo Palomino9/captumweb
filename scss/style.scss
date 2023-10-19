@@ -93,13 +93,12 @@ body{
     padding: 5px;
     border: solid; border-radius: 10px; border-color: #005c74;
     transition: width 2s, background-color 2s, align-items 2s;
-    align-items: center;   
+    text-align: center; 
 
     &:hover {
-        width: 120%;
+        width: 100%;
         background-color: white;
-        color: #0099c1;
-    align-items: center;    
+        color: #0099c1;        
 }
 }
 
